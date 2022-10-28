@@ -1,7 +1,5 @@
 # Teste Frontend 01
 
-## Introdução
-
 Olá, muito obrigado por participar do processo de contratação da Seox. Este repositório contém as instruções de entrega do seu teste. Siga elas da forma mais precisa o possível para conseguirmos avaliar você de forma adequada.
 
 ## Por onde começar
