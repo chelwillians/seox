@@ -36,7 +36,6 @@ A entrega final será composta por dois artefatos:
 ## Observações importantes
 
 - Vamos avaliar também o seu capricho com o Git.
-- Vamos gostar se você criar um vídeo explicando como você implementou a solução e adicionar o link do vídeo no README do projeto.
 - Caso você tenha algum problema com a entrega, por favor entrar em contato pelo email rh@seox.com.br.
 - Nosso time está disponível para tirar dúvidas. Para isso, entre em contato pelo email rh@seox.com.br.
 
