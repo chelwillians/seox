@@ -23,4 +23,4 @@ A entrega final será composta por dois artefatos:
 
 ## Notas extras
 
-- Nosso time de QA visual é conhecido como "Pixel Hunters", capriche na fidelidade com o Figma.
+- Nosso time de QA visual é conhecido como "Pixel Hunters". Capriche na fidelidade com o Figma.
