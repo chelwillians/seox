@@ -17,7 +17,7 @@ https://www.figma.com/file/CA648bYoiXCDCLaQqqmtsp/Teste-Vaga-Front-End?node-id=5
 
 A entrega final será composta por dois artefatos:
 
-1. Enviar, via email contato@seox.com.br, o link do repositório originado deste (fork) com os códigos da solução implementada.
+1. Enviar, via email rh@seox.com.br, o link do repositório originado deste (fork) com os códigos da solução implementada.
 2. Utilize o Gitlab pages para hospedar a solução implementada. Nosso setor de QA (Quality Assurance) vai utilizar essa página para avaliar o seu trabalho visual.
 
 ## O que será avaliado
@@ -37,8 +37,8 @@ A entrega final será composta por dois artefatos:
 
 - Vamos avaliar também o seu capricho com o Git.
 - Vamos gostar se você criar um vídeo explicando como você implementou a solução e adicionar o link do vídeo no README do projeto.
-- Caso você tenha algum problema com a entrega, por favor entrar em contato com contato@seox.com.br ou com rh@seox.com.br.
-- Nosso time está disponível para tirar dúvidas. Para isso, entre em contato pelo email contato@seox.com.br.
+- Caso você tenha algum problema com a entrega, por favor entrar em contato pelo email rh@seox.com.br.
+- Nosso time está disponível para tirar dúvidas. Para isso, entre em contato pelo email rh@seox.com.br.
 
 ## Notas extras
 
