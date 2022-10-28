@@ -4,16 +4,15 @@ Olá, muito obrigado por participar do processo de contratação da Seox. Este r
 
 ## Por onde começar
 
-1- Faça um fork deste repositório e utilize-o para realizar a implementação da solução.
-2- Utilize o README para adicionar detalhamentos de como executar o seu projeto, além de comentários livres que você queira adicionar.
+1. Faça um fork deste repositório e utilize-o para realizar a implementação da solução.
+2. Utilize o README para adicionar detalhamentos de como executar o seu projeto, além de comentários livres que você queira adicionar.
 
 ## Entrega final
 
 A entrega final será composta por dois artefatos:
 
-1- Enviar, via email contato@seox.com.br, o link do repositório originado deste (fork) com os códigos da solução implementada.
-
-2- Utilize o Gitlab pages para hospedar a solução implementada. Nosso setor de QA (Quality Assurance) vai utilizar essa página para avaliar o seu trabalho visual.
+1. Enviar, via email contato@seox.com.br, o link do repositório originado deste (fork) com os códigos da solução implementada.
+2. Utilize o Gitlab pages para hospedar a solução implementada. Nosso setor de QA (Quality Assurance) vai utilizar essa página para avaliar o seu trabalho visual.
 
 ## Observações importantes
 
