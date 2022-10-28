@@ -9,9 +9,9 @@ Olá, muito obrigado por participar do processo de contratação da Seox. Este r
 
 ## Requisitos
 
-O candidato deverá construir uma página responsiva seguindo as orientações visuais dos arquivos em Figma listados abaixo. Nele, o candidato encontrará o layout da versão desktop e mobile, seguido do styleguide com todos os elementos do projeto. 
+Você deverá construir uma página responsiva seguindo as orientações visuais dos arquivos em Figma listados abaixo. Nele, você encontrará o layout da versão desktop e mobile, seguido do styleguide com todos os elementos do projeto. 
 
-Para um melhor entendimento da proposta, abaixo seguem também os links do Protótipo Navegável, onde o candidato poderá ver as animações e interações que deverão estar presentes no resultado final.
+Para um melhor entendimento da proposta, abaixo seguem também os links do Protótipo Navegável, onde você poderá ver as animações e interações que deverão estar presentes no resultado final.
 
 O teste é basicamente duas sections com dois diferentes carrosséis. O primeiro simula um carrossel de vídeos com orientação vertical. O segundo simula um carrossel de colunistas com orientação horizontal (no protótipo o carrossel não funciona de forma literal). 
 
