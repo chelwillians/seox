@@ -12,6 +12,7 @@ Olá, muito obrigado por participar do processo de contratação da Seox. Este r
 A entrega final será composta por dois artefatos:
 
 1- Enviar, via email contato@seox.com.br, o link do repositório originado deste (fork) com os códigos da solução implementada.
+
 2- Utilize o Gitlab pages para hospedar a solução implementada. Nosso setor de QA (Quality Assurance) vai utilizar essa página para avaliar o seu trabalho visual.
 
 ## Observações importantes
