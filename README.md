@@ -28,6 +28,12 @@ Atenção: No protótipo desktop você perceberá que o carrossel colunista poss
 - Desktop: https://www.figma.com/file/CA648bYoiXCDCLaQqqmtsp/Teste-Vaga-Front-End?node-id=5%3A784
 - Mobile: https://www.figma.com/file/CA648bYoiXCDCLaQqqmtsp/Teste-Vaga-Front-End?node-id=6%3A493
 
+### Requisitos não funcionais
+
+Requisitos não funcionais são aqueles referentes a especificações das tecnologias que devem ser utilizadas no desenvolvimento da solução. Para esse projeto, utilize SASS como pré-processador e o [Bootstrap 5](https://getbootstrap.com/docs/5.0/customize/sass/) como framework Frontend. Busque reutilizar o máximo possível de componentes e classes disponibilizados por ele.
+
+Procure estruturar o Styleguide de forma isolada e reutilizável. Iremos avaliar positivamente um projeto bem estruturado. 
+
 ## Entrega final
 
 A entrega final será composta por dois artefatos:
