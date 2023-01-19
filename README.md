@@ -51,7 +51,7 @@ A entrega final será composta por dois artefatos:
 ## Diretrizes
 
 1. O teste deverá ser desenvolvido utilizando SASS
-2. Poderá ser utilizado qualquer Framework Frontend para auxiliar no desenvolvimento (Ex: Bootstrap ou Tailwind).
+2. Utilize Bootstrap como framework
 3. Inserir comentários inteligentes para diferenciação de componentes
 
 ## Observações importantes
