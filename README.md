@@ -30,7 +30,7 @@ Atenção: No protótipo desktop você perceberá que o carrossel colunista poss
 
 ### Requisitos não funcionais
 
-Requisitos não funcionais são aqueles referentes a especificações das tecnologias que devem ser utilizadas no desenvolvimento da solução. Para esse projeto, utilize SASS como pré-processador e o [Bootstrap 5](https://getbootstrap.com/docs/5.0/customize/sass/) como framework Frontend. Busque reutilizar o máximo possível de componentes e classes disponibilizados por ele.
+Requisitos não funcionais são aqueles referentes a especificações das tecnologias que devem ser utilizadas no desenvolvimento da solução. Para esse projeto, utilize SASS como pré-processador e o [Bootstrap 5](https://getbootstrap.com/docs/5.0/customize/sass/) como framework Frontend. Busque reutilizar o máximo possível de classes e funções disponibilizadas por ele.
 
 Procure estruturar o Styleguide de forma isolada e reutilizável. Iremos avaliar positivamente um projeto bem estruturado. 
 
