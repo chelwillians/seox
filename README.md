@@ -1,4 +1,4 @@
-# Teste Frontend 01
+# Teste Frontend 03
 
 Olá, muito obrigado por participar do processo de contratação da Seox. Este repositório contém as instruções de entrega do seu teste. Siga elas da forma mais precisa o possível para conseguirmos avaliar você de forma adequada.
 
@@ -13,46 +13,64 @@ Você deverá construir uma página responsiva seguindo as orientações visuais
 
 Para um melhor entendimento da proposta, abaixo seguem também os links do Protótipo Navegável, onde você poderá ver as animações e interações que deverão estar presentes no resultado final.
 
-O teste é basicamente duas sections com dois diferentes carrosséis. O primeiro simula um carrossel de vídeos com orientação vertical. O segundo simula um carrossel de colunistas com orientação horizontal (no protótipo o carrossel não funciona de forma literal). 
+O teste consiste basicamente na criação de uma section com um carrossel, listando postagens dinâmicas vindas da REST API de uma aplicação WP (WordPress). (Detalhes do serviço REST estão descritos abaixo).
 
-Atenção: No protótipo desktop você perceberá que o carrossel colunista possui um hover que contém  informações escondidas do layout. 
+Atenção: A fidelidade da aplicação com o Figma e o protótipo navegável é de suma importância. Busque o máximo de fidelidade possível.
 
 ### Protótipo navegável
 
-- Desktop: https://www.figma.com/proto/CA648bYoiXCDCLaQqqmtsp/Teste-Vaga-Front-End?page-id=5%3A784&node-id=5%3A905&viewport=711%2C735%2C0.39&scaling=min-zoom&starting-point-node-id=5%3A905
-- Mobile: https://www.figma.com/proto/CA648bYoiXCDCLaQqqmtsp/Teste-Vaga-Front-End?page-id=6%3A493&node-id=6%3A495&viewport=712%2C963%2C0.57&scaling=min-zoom
+- Desktop: https://www.figma.com/file/ioJMwe0r2xgqlur1lf0cFK/Teste-Vaga-Front-End-(Publisher)?node-id=1489%3A1836&t=eZgtsV6ckIaoZ7le-1
+- Mobile: https://www.figma.com/file/ioJMwe0r2xgqlur1lf0cFK/Teste-Vaga-Front-End-(Publisher)?node-id=1489%3A1837&t=eZgtsV6ckIaoZ7le-1
 
 ### Arquivos Figma
 
-- Styleguide: https://www.figma.com/file/CA648bYoiXCDCLaQqqmtsp/Teste-Vaga-Front-End?node-id=0%3A1
-- Desktop: https://www.figma.com/file/CA648bYoiXCDCLaQqqmtsp/Teste-Vaga-Front-End?node-id=5%3A784
-- Mobile: https://www.figma.com/file/CA648bYoiXCDCLaQqqmtsp/Teste-Vaga-Front-End?node-id=6%3A493
+- Styleguide: https://www.figma.com/file/ioJMwe0r2xgqlur1lf0cFK/Teste-Vaga-Front-End-(Publisher)?node-id=0%3A1&t=71aheYcVkMTiFHcS-0
+- Desktop: https://www.figma.com/file/ioJMwe0r2xgqlur1lf0cFK/Teste-Vaga-Front-End-(Publisher)?node-id=1489%3A1836&t=71aheYcVkMTiFHcS-0
+- Mobile: https://www.figma.com/file/ioJMwe0r2xgqlur1lf0cFK/Teste-Vaga-Front-End-(Publisher)?node-id=1489%3A1837&t=71aheYcVkMTiFHcS-0
+
+### Serviço REST de listagem de posts
+
+Preparamos uma aplicação WP com uma listagem de posts previamente configurada. A seguinte documentação detalha como utilizar a REST API do WP para listar os posts necessários para dinamização do carrossel do teste.
+
+Documentação: https://developer.wordpress.org/rest-api/reference/posts/
+
+Aplicação WP: // TODO: Adicionar aplicação.
 
 ### Requisitos não funcionais
 
-Requisitos não funcionais são aqueles referentes a especificações das tecnologias que devem ser utilizadas no desenvolvimento da solução. Para esse projeto, utilize SASS como pré-processador e o [Bootstrap 5](https://getbootstrap.com/docs/5.0/customize/sass/) como framework Frontend. Busque reutilizar o máximo possível de classes e funções disponibilizadas por ele.
+Requisitos não funcionais são aqueles referentes a especificações das tecnologias que devem ser utilizadas no desenvolvimento da solução. Para esse projeto, utilize SASS como pré-processador.
 
-Procure estruturar o Styleguide de forma isolada e reutilizável. Iremos avaliar positivamente um projeto bem estruturado. 
+A dinamização dos posts através do serviço REST pode ser feito através do PHP ou JS.
+
+Procure estruturar o Styleguide de forma isolada e reutilizável. Iremos avaliar positivamente um projeto bem estruturado.
 
 ## Entrega final
 
 A entrega final será composta por dois artefatos:
 
 1. Enviar, via email rh@seox.com.br, o link do repositório originado deste (fork) com os códigos da solução implementada.
-2. Utilize o Gitlab pages para hospedar a solução implementada. Nosso setor de QA (Quality Assurance) vai utilizar essa página para avaliar o seu trabalho visual.
+2. Você deve hospedar a aplicação e disponibilizar um domínio para testes. Sugerimos a utilização do Gitlab pages para hospedar a solução implementada. Nosso setor de QA (Quality Assurance) vai utilizar essa página para avaliar o seu trabalho visual.
 
 ## O que será avaliado
 
-1. Capacidade de interpretação de briefing e relação da proposta com o briefing.
-2. Qualidade estética e execução do resultado
-3. Organização dos códigos, componentização e responsividade
-4. SEO Técnico (CWV)
+1. Fidelidade do layout.
+2. Qualidade do código (organização dos códigos, componentização e responsividade).
+3. Organização dos arquivos.
+4. Utilização do Git.
+5. SEO Técnico (CWV).
+
+## Opcionais de Valor
+
+1. Componentizar elementos em PHP ou PHP/WordPress.
+2. Utilizar o framework Bootstrap.
+3. Fazer o carrossel sem biblioteca externa, pode utilizar JS ou jQuery.
 
 ## Diretrizes
 
-1. O teste deverá ser desenvolvido utilizando SASS
-2. Utilize Bootstrap como framework
+1. O teste deverá ser desenvolvido utilizando SASS.
+2. Consumir a REST API (em JS ou PHP) e dinamizar os cards do carrossel.
 3. Inserir comentários inteligentes para diferenciação de componentes
+4. Subir em um ambiente online para que possa ser enviado pra gente.
 
 ## Observações importantes
 
@@ -63,3 +81,4 @@ A entrega final será composta por dois artefatos:
 ## Notas extras
 
 - Nosso time de QA visual é conhecido como "Pixel Hunters". Capriche na fidelidade com o Figma.
+
