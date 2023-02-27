@@ -19,14 +19,12 @@ Atenção: A fidelidade da aplicação com o Figma e o protótipo navegável é 
 
 ### Protótipo navegável
 
-- Desktop: https://www.figma.com/file/ioJMwe0r2xgqlur1lf0cFK/Teste-Vaga-Front-End-(Publisher)?node-id=1489%3A1836&t=eZgtsV6ckIaoZ7le-1
-- Mobile: https://www.figma.com/file/ioJMwe0r2xgqlur1lf0cFK/Teste-Vaga-Front-End-(Publisher)?node-id=1489%3A1837&t=eZgtsV6ckIaoZ7le-1
+- Desktop: https://www.figma.com/proto/6S1YIPxnMcWp4AE4Al9SRS/Front-End-Test?page-id=1489%3A1836&node-id=1489%3A1838&viewport=1016%2C512%2C0.61&scaling=min-zoom 
+- Mobile: https://www.figma.com/proto/6S1YIPxnMcWp4AE4Al9SRS/Front-End-Test?page-id=1489%3A1837&node-id=1489%3A2124&viewport=941%2C700%2C1.02&scaling=scale-down
 
 ### Arquivos Figma
 
-- Styleguide: https://www.figma.com/file/ioJMwe0r2xgqlur1lf0cFK/Teste-Vaga-Front-End-(Publisher)?node-id=0%3A1&t=71aheYcVkMTiFHcS-0
-- Desktop: https://www.figma.com/file/ioJMwe0r2xgqlur1lf0cFK/Teste-Vaga-Front-End-(Publisher)?node-id=1489%3A1836&t=71aheYcVkMTiFHcS-0
-- Mobile: https://www.figma.com/file/ioJMwe0r2xgqlur1lf0cFK/Teste-Vaga-Front-End-(Publisher)?node-id=1489%3A1837&t=71aheYcVkMTiFHcS-0
+- Figma: https://www.figma.com/file/6S1YIPxnMcWp4AE4Al9SRS/Front-End-Test?t=znQ7nXaNHGcHxHCe-1
 
 ### Serviço REST de listagem de posts
 
