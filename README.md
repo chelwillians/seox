@@ -34,7 +34,9 @@ Documentação: https://developer.wordpress.org/rest-api/reference/posts/
 
 Aplicação WP: https://teste-frontend.seox.com.br/
 
-Nota: Tradicionalmente para buscar a imagem destacada de um post você precisaria fazer uma requisição REST somente para retornar a url da imagem. Entretanto, é possível listar as URLs da imagem destacada de posts na requisição inicial através da query string `?_embed`. Essa query string adiciona o atributo `wp:featuredmedia` contendo as URLs da imagem destacada.
+Notas: 
+- Tradicionalmente para buscar a imagem destacada de um post você precisaria fazer uma requisição REST somente para retornar a url da imagem. Entretanto, é possível listar as URLs da imagem destacada de posts na requisição inicial através da query string `?_embed`. Essa query string adiciona o atributo `wp:featuredmedia` contendo as URLs da imagem destacada.
+- Acima dos title, imprimimos um "chapéu". Esse chapéu pode ser acessada pela REST através do caminho: `acf.hat`.
 
 ### Requisitos não funcionais
 
