@@ -1,9 +1,8 @@
 .container{
   position: relative;
-  width: 100%;
+  width: calc(100% - 48px);
   max-width: $container;
   margin: 0 auto;
-  padding: 0 24px;
 } 
 
 html *{
