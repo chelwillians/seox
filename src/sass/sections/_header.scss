@@ -1,6 +1,4 @@
 .main-header {
-    margin-top: 24px;
-
     .wrap {
         background-color: $gray-800;
         padding: 16px;
@@ -17,6 +15,7 @@
     }
 
     &__see-more {
+        display: inline-block;
         position: relative;
         border: 2px solid $gray-700;
         border-radius: 4px;
@@ -27,7 +26,7 @@
             display: none;
         }
 
-        &::before {
+        &::after {
             content: '';
             position: absolute;
             top: 50%;
@@ -44,4 +43,107 @@
     &__navigation {
         display: none;
     }
+}
+
+@media(min-width: #{map-get($breakpoints, 'md')}px) {
+    .main-header {
+        &__right {
+            display: flex;
+        }
+
+        &__see-more {
+            display: flex;
+            align-items: center;
+            color: $gray-700;
+            font-weight: 700;
+            width: auto;
+            padding: 12px;
+            transition: .4s;
+
+            &::after {
+                position: relative;
+                transform: rotate(-45deg);
+                top: unset;
+                left: unset;
+                margin-left: 12px;
+            }
+
+            span {
+                display: block;
+                font-size: map-get($font-sizes, 'xs');
+                line-height: map-get($line-heights, 'xxs');
+                text-transform: uppercase;
+                transition: .4s;
+            }
+
+            &:hover {
+                background-color: $gray-900;
+                border: 2px solid $gray-900;
+
+                span {
+                    color: $red-300;
+                }
+
+                &::after {
+                    border: solid $red-300;
+                    border-width: 0 1.8px 1.8px 0;
+                }
+            }
+        }
+
+        &__navigation {
+            display: flex;
+            margin-left: 16px;
+
+            &--item {
+                position: relative;
+                border-radius: 4px;
+                height: 48px;
+                width: 48px;
+                margin-left: 12px;
+                cursor: pointer;
+                background: $gray-900;
+                transition: .4s;
+
+                &:hover {
+                    opacity: .7;
+                }
+
+
+                &:first-child {
+                    margin-left: 0;
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    border: solid $red-100;
+                    border-width: 0 1.8px 1.8px 0;
+                    display: inline-block;
+                    padding: 5px;
+                    transform: translateX(-50%) translateY(-50%);
+                    transform-origin: 50%;
+                }
+
+                &--up {
+                    &::after {
+                        transform: translateX(-50%) translateY(calc(-50% + 2px)) rotate(225deg);
+                    }
+                }
+
+                &--down {
+                    &::after {
+                        transform: translateX(-50%) translateY(calc(-50% - 2px)) rotate(45deg);
+                    }
+                }
+
+                &--disable {
+                    opacity: .3;
+                }
+            }
+        }
+    }
+
 }
