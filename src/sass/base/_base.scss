@@ -4,3 +4,11 @@
   max-width: $container;
   margin: 0 auto;
 } 
+
+html *{
+  font-family: $font-family-primary
+}
+
+body{
+  background: $black-gradient;
+}
