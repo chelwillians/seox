@@ -1,0 +1,8 @@
+.title {
+    font-weight: 700;
+
+    &--section {
+        font-size: map-get($font-sizes, 'xl');
+        line-height: map-get($line-heights, 'xl');
+    }
+}
