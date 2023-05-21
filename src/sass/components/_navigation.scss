@@ -1,0 +1,53 @@
+.navigation {
+    display: flex;
+    margin-left: 16px;
+
+    &--item {
+        position: relative;
+        border-radius: 4px;
+        height: 48px;
+        width: 48px;
+        margin-left: 12px;
+        cursor: pointer;
+        background: $gray-900;
+        transition: .4s;
+
+        &:hover {
+            opacity: .7;
+        }
+
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            border: solid $red-100;
+            border-width: 0 1.8px 1.8px 0;
+            display: inline-block;
+            padding: 5px;
+            transform: translateX(-50%) translateY(-50%);
+            transform-origin: 50%;
+        }
+
+        &--up {
+            &::after {
+                transform: translateX(-50%) translateY(calc(-50% + 2px)) rotate(225deg);
+            }
+        }
+
+        &--down {
+            &::after {
+                transform: translateX(-50%) translateY(calc(-50% - 2px)) rotate(45deg);
+            }
+        }
+
+        &--disable {
+            opacity: .3;
+        }
+    }
+}
