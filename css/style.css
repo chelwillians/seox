@@ -221,4 +221,7 @@ main {
   .main-header__right {
     display: flex;
   }
+  .main-header__navigation {
+    display: flex;
+  }
 }
