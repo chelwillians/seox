@@ -10,6 +10,10 @@ html * {
   box-sizing: border-box;
 }
 
+img{
+  max-width: 100%;
+}
+
 main {
   padding-top: 24px;
   background: $black-gradient;

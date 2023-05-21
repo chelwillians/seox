@@ -70,6 +70,10 @@ html * {
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 main {
   padding-top: 24px;
   background: linear-gradient(93.03deg, #222222 0.41%, #2E2E2E 98.74%);
@@ -224,4 +228,7 @@ main {
   .main-header__navigation {
     display: flex;
   }
+}
+.highlighted {
+  margin-top: 24px;
 }
