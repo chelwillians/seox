@@ -232,3 +232,43 @@ main {
 .highlighted {
   margin-top: 24px;
 }
+.highlighted__card {
+  position: relative;
+  display: inline-block;
+  border-radius: 8px 8px 0px 0px;
+  overflow: hidden;
+}
+.highlighted__card--featured-img {
+  display: block;
+  max-height: 202px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.highlighted__card--icon-video {
+  position: absolute;
+  top: 13px;
+  left: 16px;
+  width: 33px;
+  height: 33px;
+  background-image: url("../images/video-icon.svg");
+}
+.highlighted__card--data {
+  background: rgb(51, 51, 51);
+  border-radius: 0px 0px 4px 4px;
+  padding: 16px;
+}
+.highlighted__card--category {
+  color: rgb(237, 104, 107);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 16px;
+}
+.highlighted__card--title {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 6px;
+}

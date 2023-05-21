@@ -1,0 +1,49 @@
+.highlighted {
+    margin-top: 24px;
+
+    &__card {
+        position: relative;
+        display: inline-block;
+        border-radius: 8px 8px 0px 0px;
+        overflow: hidden;
+
+        &--featured-img {
+            display: block;
+            max-height: 202px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        &--icon-video{
+            position: absolute;
+            top: 13px;
+            left: 16px;
+            width: 33px;
+            height: 33px;
+            background-image: url('../images/video-icon.svg');
+        }
+
+        &--data {
+            background: $gray-800;
+            border-radius: 0px 0px 4px 4px;
+            padding: 16px;
+        }
+
+        &--category {
+            color: $red-300;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: map-get($font-sizes, 'xxs');
+            line-height: map-get($line-heights, 'xxs');
+        }
+
+        &--title {
+            color: $white;
+            font-weight: 700;
+            font-size: map-get($font-sizes, 'sm');
+            line-height: map-get($line-heights, 'sm');
+            margin-top: 6px;
+        }
+    }
+}
