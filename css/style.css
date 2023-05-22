@@ -78,7 +78,7 @@ main {
   padding-top: 24px;
   background: linear-gradient(93.03deg, #222222 0.41%, #2E2E2E 98.74%);
   min-height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 body {
