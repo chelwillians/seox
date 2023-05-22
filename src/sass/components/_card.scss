@@ -74,10 +74,30 @@
             #{$s}--comments {
                 opacity: 1;
             }
+
+            #{$s}--featured-img {
+                background-color: $black-50;
+
+                &-hover{
+                    opacity: 1;
+                }
+            }
         }
 
         &--featured-img {
             max-height: 204px;
+            transition: .4s;
+
+            &-hover{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: $black-50;
+                opacity: 0;
+                transition: .4s;
+            }
         }
 
         &--data {
@@ -117,6 +137,7 @@
 
         &--icon-video {
             left: 12px;
+            z-index: 10;
         }
 
         &--highlighted {

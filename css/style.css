@@ -272,8 +272,25 @@ main {
   .card:hover .card--comments {
     opacity: 1;
   }
+  .card:hover .card--featured-img {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .card:hover .card--featured-img-hover {
+    opacity: 1;
+  }
   .card--featured-img {
     max-height: 204px;
+    transition: 0.4s;
+  }
+  .card--featured-img-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 0.4s;
   }
   .card--data {
     padding: 14px 12px;
@@ -308,6 +325,7 @@ main {
   }
   .card--icon-video {
     left: 12px;
+    z-index: 10;
   }
   .card--highlighted {
     min-height: 642px;
