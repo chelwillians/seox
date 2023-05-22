@@ -48,6 +48,7 @@
 
         &--disable {
             opacity: .3;
+            pointer-events: none;
             cursor: not-allowed;
 
             &:hover {

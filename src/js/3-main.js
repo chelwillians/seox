@@ -38,3 +38,38 @@ async function getData() {
 }
 
 getData()
+
+const controls = document.querySelectorAll('.main-header .navigation .navigation--item');
+let postListItems;
+let current = 0;
+
+controls.forEach((control) => {
+    control.addEventListener('click', () => {
+        const isDown = control.classList.contains('navigation--item--down');
+        postListItems = document.querySelectorAll('.post-list .post-list__list .card');
+        const maxItems = postListItems.length;
+
+        if(isDown) {
+            current += 1;
+        } else {
+            current -= 1;
+        }
+
+        if(current > 0){
+            controls[0].classList.remove('navigation--item--disable')
+        }
+
+        if(current >= maxItems - 1){
+            controls[1].classList.add('navigation--item--disable')
+        }
+
+
+        postListItems[current].scrollIntoView({
+            block: 'start',
+            behavior: 'smooth'
+        })
+
+    })
+});
+
+// getBoundingClientRect

@@ -1,4 +1,6 @@
 .post-list {
+    margin-top: 24px;
+
     &__list {
         display: flex;
         overflow-x: scroll;
@@ -13,7 +15,23 @@
 
 @media(min-width: #{map-get($breakpoints, 'md')}px) {
     .post-list {
+        margin-top: 32px;
+
+        .wrap {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        &__highlighted {
+            width: 74.5%;
+        }
+
         &__list {
+            width: 23.5%;
+            overflow: hidden;
+            max-height: 642px;
+            margin-top: 6px;
             display: block;
             overflow-x: hidden;
             // overflow-y: hidden

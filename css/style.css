@@ -219,6 +219,7 @@ body::before {
 }
 .navigation--item--disable {
   opacity: 0.3;
+  pointer-events: none;
   cursor: not-allowed;
 }
 .navigation--item--disable:hover {
@@ -432,6 +433,15 @@ body::before {
 .post-list {
   margin-top: 24px;
 }
+.post-list__list {
+  display: flex;
+  overflow-x: scroll;
+  width: 100vw;
+}
+.post-list__list .card {
+  min-width: 292px;
+  margin-right: 16px;
+}
 
 @media (min-width: 768px) {
   .post-list {
@@ -450,20 +460,6 @@ body::before {
     overflow: hidden;
     max-height: 642px;
     margin-top: 6px;
-  }
-}
-.post-list__list {
-  display: flex;
-  overflow-x: scroll;
-  width: 100vw;
-}
-.post-list__list .card {
-  min-width: 292px;
-  margin-right: 16px;
-}
-
-@media (min-width: 768px) {
-  .post-list__list {
     display: block;
     overflow-x: hidden;
     width: 23.5%;
