@@ -59,7 +59,7 @@ controls.forEach((control) => {
             controls[0].classList.remove('navigation--item--disable')
         }
 
-        if(current >= maxItems - 1){
+        if(current >= maxItems - 2){
             controls[1].classList.add('navigation--item--disable')
         }
 
