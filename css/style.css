@@ -433,6 +433,9 @@ body::before {
 .post-list {
   margin-top: 24px;
 }
+.post-list__highlighted .card {
+  width: 100%;
+}
 .post-list__list {
   display: flex;
   overflow-x: scroll;
