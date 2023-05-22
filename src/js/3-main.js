@@ -1,9 +1,9 @@
 const listItems = document.querySelector('.post-list__list');
 const itemHighlighted = document.querySelector('.post-list__highlighted');
 
-async function getDados() {
-    const teste = await fetch('https://teste-frontend.seox.com.br/wp-json/wp/v2/posts?_embed');
-    const data = await teste.json();
+async function getData() {
+    const response = await fetch('https://teste-frontend.seox.com.br/wp-json/wp/v2/posts?_embed');
+    const data = await response.json();
     let i = 0;
 
     data.forEach(element => {
@@ -37,4 +37,4 @@ async function getDados() {
     });
 }
 
-getDados()
+getData()
