@@ -1,0 +1,12 @@
+.post-list{
+    &__list{
+        display: flex;
+        overflow-x: scroll;
+        width: 100vw;
+
+        .card{
+            min-width: 292px;
+            margin-right: 16px;
+        }
+    }
+}

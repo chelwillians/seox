@@ -448,3 +448,12 @@ body::before {
     margin-top: 6px;
   }
 }
+.post-list__list {
+  display: flex;
+  overflow-x: scroll;
+  width: 100vw;
+}
+.post-list__list .card {
+  min-width: 292px;
+  margin-right: 16px;
+}
