@@ -18,6 +18,7 @@ main {
   padding-top: 24px;
   background: $black-gradient;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 body{
@@ -30,6 +31,7 @@ body{
     top: 0;
     width: 1015px;
     height: 569px;
+    max-width: 100%;
     display: inline-block;
     background-color: $gray-700;
     z-index: -1;

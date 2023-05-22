@@ -78,6 +78,7 @@ main {
   padding-top: 24px;
   background: linear-gradient(93.03deg, #222222 0.41%, #2E2E2E 98.74%);
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 body {
@@ -90,6 +91,7 @@ body::before {
   top: 0;
   width: 1015px;
   height: 569px;
+  max-width: 100%;
   display: inline-block;
   background-color: rgb(112, 112, 112);
   z-index: -1;
@@ -387,13 +389,12 @@ body::before {
 }
 @media (min-width: 768px) {
   .background {
-    position: relative;
     display: block;
     position: absolute;
     top: -85px;
     left: -108px;
     background: linear-gradient(93.03deg, #222222 0.41%, #2E2E2E 98.74%);
-    width: 100vw;
+    width: 130vw;
     height: calc(100% + 118px);
     z-index: -1;
     border-radius: 8px 0 0 8px;

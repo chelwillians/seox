@@ -1,14 +1,12 @@
 @media(min-width: #{map-get($breakpoints, 'md')}px) {
 
     .background {
-        position: relative;
-
         display: block;
         position: absolute;
         top: -85px;
         left: -108px;
         background: $black-gradient;
-        width: 100vw;
+        width: 130vw;
         height: calc(100% + 118px);
         z-index: -1;
         border-radius: 8px 0 0 8px;
