@@ -219,6 +219,10 @@ body::before {
 }
 .navigation--item--disable {
   opacity: 0.3;
+  cursor: not-allowed;
+}
+.navigation--item--disable:hover {
+  opacity: 0.3;
 }
 
 .card {
@@ -456,4 +460,16 @@ body::before {
 .post-list__list .card {
   min-width: 292px;
   margin-right: 16px;
+}
+
+@media (min-width: 768px) {
+  .post-list__list {
+    display: block;
+    overflow-x: hidden;
+    width: 23.5%;
+  }
+  .post-list__list .card {
+    min-width: unset;
+    margin-right: 0;
+  }
 }

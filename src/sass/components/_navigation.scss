@@ -48,6 +48,11 @@
 
         &--disable {
             opacity: .3;
+            cursor: not-allowed;
+
+            &:hover {
+                opacity: .3;
+            }
         }
     }
 }

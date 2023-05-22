@@ -1,12 +1,28 @@
-.post-list{
-    &__list{
+.post-list {
+    &__list {
         display: flex;
         overflow-x: scroll;
         width: 100vw;
 
-        .card{
+        .card {
             min-width: 292px;
             margin-right: 16px;
+        }
+    }
+}
+
+@media(min-width: #{map-get($breakpoints, 'md')}px) {
+    .post-list {
+        &__list {
+            display: block;
+            overflow-x: hidden;
+            // overflow-y: hidden
+            width: 23.5%;
+
+            .card {
+                min-width: unset;
+                margin-right: 0;
+            }
         }
     }
 }
