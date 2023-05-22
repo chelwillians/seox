@@ -22,6 +22,18 @@ main {
 
 body{
   overflow-x: hidden;
+
+  &::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1015px;
+    height: 569px;
+    display: inline-block;
+    background-color: $gray-700;
+    z-index: -1;
+  }
 }
 
 @media(min-width: #{map-get($breakpoints, 'md')}px) {
